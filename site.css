@@ -1,0 +1,164 @@
+html, body, .cover {
+    height: 100%;
+}
+
+body {
+    background: url(images/cover.png), 
+    url(images/noise.png) no-repeat,
+    linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*//////////////////////////////Navigation bar*/
+.img-logo {
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('images/spotify.svg') no-repeat;
+    background-size: contain; /*The same box size*/
+    color: transparent;
+}
+
+nav.navbar-transparent {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+.divide {
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a, #footerPage .nav a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,  #footerPage .nav a:hover {
+    color: #9bf0e1;
+    background: none;
+}
+/*//////////////////////////////Navigation bar*/
+
+/*//////////////////////////////Cover*/
+.cover {
+    display: table;
+    width: 100%;
+}
+
+.cover-text {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*//////////////////////////////Cover*/
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 2s, color 2s
+}
+
+.btn-purple{
+    background: #7c25f8;
+}
+
+.btn-purple:hover{
+    background: #6207e3;
+    color: white;
+}
+
+.btn-white{
+    border: 2px solid white;
+}
+
+.btn-white:hover{
+    background: white;
+    color: black;
+}
+
+/*//////////////////////////////Cover*/
+#services {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns {
+    padding: 10px 0 10px 0;
+
+}
+
+#resources {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.rotate {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+#footerPage {
+    padding: 50px 0px 20px 0px;
+    background: #000;
+    position: relative;
+}
+
+.social-network {
+    float: right;
+}
+
+
+/*////////////////////////Tipography*/
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#footerPage h4 {
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#services h2, #services h3 {
+    color: #7c25f8;
+}
+
+#resources h3 {
+    color: #9bf0e1;
+}
