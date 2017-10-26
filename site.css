@@ -1,5 +1,6 @@
 html, body, .cover {
     height: 100%;
+    overflow: auto; /*correction for mobile*/
 }
 
 body {
@@ -68,8 +69,6 @@ nav.navbar-transparent {
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
-    padding: 10px 35px;
-    margin: 0px 15px;
     text-transform: uppercase;
     transition: background 2s, color 2s
 }
@@ -162,3 +161,40 @@ h3 {
 #resources h3 {
     color: #9bf0e1;
 }
+
+/*////////Media Queries////////////*/
+@media screen and (max-width: 767px) /*XS devices*/
+{
+    h1 {
+        font-size: 50px;
+    }
+
+    .btn-custom {
+        padding: 10px 35px;
+        margin: 10px 15px;
+    }
+}
+
+@media screen and (min-width: 768px) /*SM devices*/
+{
+    h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 992px) /*MD devices*/
+{
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 1200px) /*LG devices*/
+{
+    h1 {
+        font-size: 80px;
+    }
+}
+
+
+
